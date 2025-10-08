@@ -34,29 +34,27 @@ body {
 }
 
 .container .section {
-  /* display: flex;
-  flex-direction: column; */
   margin-top: 58px;
 }
 
-/* .container .section .payment { */
-  /* background-color: #382AE1;
-  padding: 15px 150px;
-  border-radius: 15%; */
-/* } */
+.container .section .payment {
+  background-color: #382AE1;
+  margin-bottom: 20px;
+  width: 400px;
+}
 
-.container .section a {
+.container .section .payment a {
   font-family: Red Hat Display;
   font-size: 15px;
   font-weight: 900;
   text-decoration: none;
   color: white;
   background-color: #382AE1;
-  padding: 15px 100px;
-  border-radius: 15%;
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
+  padding: 14px 54px ;
+  /* border-radius: 6%; */
 }
 
 .container .section .payment-cancel a {
@@ -64,8 +62,6 @@ body {
   font-size: 15px;
   font-weight: 900;
   text-decoration: none;
-  color: white;
-  /* background-color: #382AE1; */
+  color: #717FA6;
   padding: 15px 150px;
-  border-radius: 15%;
 }
