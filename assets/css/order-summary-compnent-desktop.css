@@ -12,7 +12,7 @@ body {
   width: 450px;
   height: 632px;
   border-radius: 3%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .container .header h1 {
